@@ -1,0 +1,27 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>F1 Racing Demo</title>
+        <style>
+            body { font-family: Arial, sans-serif; text-align: center; margin-top: 50px; }
+            canvas { border: 1px solid black; }
+        </style>
+    </head>
+    <body>
+        <h1>F1 Racing Game Demo</h1>
+        <p>This is a basic placeholder demo for the upcoming F1 racing game.</p>
+        <canvas id="gameCanvas" width="800" height="600"></canvas>
+        <script>
+            const canvas = document.getElementById('gameCanvas');
+            const ctx = canvas.getContext('2d');
+            ctx.fillStyle = 'green';
+            ctx.fillRect(50, 50, 700, 500);
+            ctx.fillStyle = 'white';
+            ctx.fillText('Welcome to F1 Racing Demo!', 300, 300);
+        </script>
+    </body>
+    </html>
+    
